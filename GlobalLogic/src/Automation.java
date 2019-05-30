@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Automation {
 public static void main(String[] args) {
 	Scanner sc=new Scanner(System.in);
-	System.out.println("Enter the String");
+	System.out.println("Enter the String which you want to split");
 	String s=sc.nextLine();
 	String st[]=s.split(" ");
 	String fn=" ";
